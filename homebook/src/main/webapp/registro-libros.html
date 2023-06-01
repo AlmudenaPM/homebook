@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+    <meta charset="utf-8" />
+    <title>Registrar libro</title>
+    <link rel="stylesheet" href="estilo-registro-libros.css">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="pagina-principal.html" class="active">Página Principal</a>
+        <a href="inicio-sesion.html">Inicio Sesión</a>
+        <a href="registro-usuarios.html">Registro usuarios</a>
+        <div class="dropdown">
+            <button class="dropbtn">
+                Opciones de usuario
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="perfil-usuario.html">Datos Usuario</a>
+                <a href="registro-libros.html">Registro de Libros</a>
+                <a href="Listado-libros.html">Listado de Libros</a>
+            </div>
+        </div>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+  <h1>Registrar libro</h1>
+  <form id="FormularioRegistroLibro">
+  	<p> En este apartado podras registrar todos tus libros para tenerlos bien almacenados en tu perfil</p>
+    <label for="titulo">Título:</label>
+    <input type="text" id="titulo" required>
+
+    <label for="autor">Autor:</label>
+    <input type="text" id="autor" required>
+
+    <label for="genero">Género:</label>
+    <input type="text" id="genero">
+    
+    <label for="publicacion">Publicación:</label>
+    <input type="text" id="publicacion" >
+    
+    <label for="editorial">Editorial:</label>
+    <input type="text" id="editorial">
+    
+    <label for="idioma">Idioma:</label>
+    <input type="text" id="idioma">
+    
+    <label for="isbn">ISBN:</label>
+    <input type="text" id="isbn">
+
+    <input type="submit" value="Registrar libro">
+  </form>
+    <footer>
+        <p>Copyright © 2023</p>
+    </footer>
+    <script src="registroLibros.js"></script>
+</body>
+</html>
+

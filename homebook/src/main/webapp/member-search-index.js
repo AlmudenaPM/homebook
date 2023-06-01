@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"<Unnamed>","c":"InicioSesionDao","l":"InicioSesionDao()","u":"%3Cinit%3E()"},{"p":"<Unnamed>","c":"InicioSesionDao","l":"verifyCredentials(String, String)","u":"verifyCredentials(java.lang.String,java.lang.String)"}];updateSearchResults();

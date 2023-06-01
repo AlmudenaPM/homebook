@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="es-es">
+<head>
+  <title>Lista de libros</title>
+  <link rel="stylesheet" type="text/css" href="estilo-Listado-libros.css">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="pagina-principal.html" class="active">Página Principal</a>
+        <a href="inicio-sesion.html">Inicio Sesión</a>
+        <a href="registro-usuarios.html">Registro usuarios</a>
+        <div class="dropdown">
+            <button class="dropbtn">
+                Opciones de usuario
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="perfil-usuario.html">Datos Usuario</a>
+                <a href="registro-libros.html">Registro de Libros</a>
+                <a href="Listado-libros.html">Listado de Libros</a>
+            </div>
+        </div>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+	<h1>Lista de libros</h1>
+	<table id="libros-table">
+    	<thead>
+      		<tr>
+        	<th onclick="ordenar('titulo')">Título</th>
+        	<th onclick="ordenar('autor')">Autor</th>
+        	<th onclick="ordenar('genero')">Genero</th>
+        	<th onclick="ordenar('editorial')">Editorial</th>
+        	<th onclick="ordenar('publicacion')">Publicación</th>
+        	<th onclick="ordenar('idioma')">Idioma</th>
+        	<th onclick="ordenar('isbn')">ISBN</th>
+      		</tr>
+    	</thead>
+    <tbody id="libros-body">
+      <!-- Aquí se cargarán los libros mediante JavaScript -->
+    </tbody>
+  	</table>
+
+  	<script src="Listado-libros.js"></script>
+</body>
+</html>
